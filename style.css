@@ -1,0 +1,58 @@
+nav ul{
+    list-style-type: none;
+   
+}
+nav{
+   
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+   align-items: center;
+    color: aliceblue;
+    background-color: rgb(41, 11, 69);
+    font-size: 30px;
+    
+
+}
+.game
+{
+    background-color:rgb(102, 51, 153);
+    display: flex;
+    justify-content: center;
+}
+.contain
+{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.box{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+.box:hover{
+    background-color: pink;
+}
+.info{
+    padding: 20px;
+    font-size: medium;
+
+}
+.b
+{
+    border-right: none;
+}.b1
+{
+    border-right: none;
+}
+.b2
+{
+    border-top: none;
+}
+.btr{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    
+}
